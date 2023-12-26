@@ -1,0 +1,17 @@
+Dependencies for Project 'uart_echo', Target 'uart_echo': (DO NOT MODIFY !)
+F (.\startup_rvmdk.S)(0x5453992C)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IF:\ARM\RV31\INC-IF:\ARM\CMSIS\Include-IF:\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 526"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (.\uart_echo.c)(0x5453992C)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\.. --c99-IF:\ARM\RV31\INC-IF:\ARM\CMSIS\Include-IF:\ARM\INC\Luminary-D__UVISION_VERSION="526" -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1-o .\rvmdk\uart_echo.o --omf_browse .\rvmdk\uart_echo.crf --depend .\rvmdk\uart_echo.d)
+I (F:\ARM\ARMCC\include\stdint.h)(0x599F83FE)
+I (F:\ARM\ARMCC\include\stdbool.h)(0x599F83FE)
+I (..\..\..\..\inc/hw_ints.h)(0x5453992E)
+I (..\..\..\..\inc/hw_memmap.h)(0x5453992E)
+I (..\..\..\..\driverlib/debug.h)(0x54539929)
+I (..\..\..\..\driverlib/fpu.h)(0x54539929)
+I (..\..\..\..\driverlib/gpio.h)(0x54539929)
+I (..\..\..\..\driverlib/interrupt.h)(0x5453992A)
+I (..\..\..\..\driverlib/pin_map.h)(0x5453A11A)
+I (..\..\..\..\driverlib/rom.h)(0x5453992A)
+I (..\..\..\..\driverlib/sysctl.h)(0x5453992A)
+I (..\..\..\..\driverlib/uart.h)(0x5453992A)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x00000000)()
+F (.\readme.txt)(0x5453992C)()

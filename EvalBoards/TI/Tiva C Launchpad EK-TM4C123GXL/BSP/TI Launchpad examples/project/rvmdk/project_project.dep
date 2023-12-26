@@ -1,0 +1,12 @@
+Dependencies for Project 'project', Target 'project': (DO NOT MODIFY !)
+F (.\project.c)(0x5453992E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\.. --c99-IF:\ARM\RV31\INC-IF:\ARM\CMSIS\Include-IF:\ARM\INC\Luminary-D__UVISION_VERSION="526" -Drvmdk -DPART_LM4F232H5BB -DTARGET_IS_BLIZZARD_RA3-o .\rvmdk\project.o --omf_browse .\rvmdk\project.crf --depend .\rvmdk\project.d)
+I (F:\ARM\ARMCC\include\stdbool.h)(0x599F83FE)
+I (F:\ARM\ARMCC\include\stdint.h)(0x599F83FE)
+I (..\..\inc/hw_memmap.h)(0x5453992E)
+I (..\..\driverlib/debug.h)(0x54539929)
+I (..\..\driverlib/gpio.h)(0x54539929)
+I (..\..\driverlib/rom.h)(0x5453992A)
+I (..\..\driverlib/sysctl.h)(0x5453992A)
+F (.\startup_rvmdk.S)(0x5453992E)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IF:\ARM\RV31\INC-IF:\ARM\CMSIS\Include-IF:\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 526"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\..\driverlib\rvmdk\driverlib.lib)(0x00000000)()
+F (.\readme.txt)(0x5453992E)()

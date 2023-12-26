@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Andrew Topping, ds, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.26.2.0
+Toolchain Path:  F:\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+F:\SAR_Tiva_C_Launchpad_EK-TM4C123GXL_uCOS-II\Software\EvalBoards\TI\Tiva C Launchpad EK-TM4C123GXL\OS2\KeilMDK\OS2.uvprojx
+Project File Date:  03/17/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'F:\ARM\ARMCC\Bin'
+Build target 'FLASH'
+compiling app.c...
+..\app.c(109): warning:  #1295-D: Deprecated declaration InitializeSystemClock - give arg types
+  void InitializeSystemClock();
+..\app.c(197): warning:  #223-D: function "sprintf" declared implicitly
+      sprintf(command, "AT+CIPSTART=\"TCP\",\"%s\",%d\r\n", TARGET_IP_ADDRESS, port);
+..\app.c(195): warning:  #177-D: variable "nonVolatileBuffer"  was declared but never referenced
+      char nonVolatileBuffer[BUFFER_SIZE];
+..\app.c(258): warning:  #550-D: variable "commandSent"  was set but never used
+      bool commandSent = false;
+..\app.c(367): warning:  #223-D: function "snprintf" declared implicitly
+  	snprintf(message, sizeof(message), "Device ID: %d\r\n",DevID);
+..\app.c(406): warning:  #223-D: function "snprintf" declared implicitly
+      snprintf(message, sizeof(message), "Visible Light: %u, Infrared Light: %u\r\n", visibleLight, infraredLight);
+..\app.c(433): warning:  #223-D: function "snprintf" declared implicitly
+      snprintf(buffer, bufferSize, "Temperature: %.2f C\r\n", temperature);
+..\app.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=20712 RO-data=1788 RW-data=1644 ZI-data=10132  
+".\Flash\OS2.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_FLASH
+  F:\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
